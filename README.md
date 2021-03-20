@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/sreejithag/wireguard_vpn_server_setup_script/main/assets/wireguard.png" > <br/>
 
-Script can be used to install and configure wiregurad VPN server in an Ubuntu cloud VM.
+The script can be used to install and configure wiregurad VPN server in an Ubuntu cloud VM.
 
 ## Requirements
 
@@ -11,12 +11,12 @@ Script can be used to install and configure wiregurad VPN server in an Ubuntu cl
 
 ## Installation
 
-Script can accepts 2 arguments 
+Script can accept 2 arguments 
 
 1. Number of clients (Default is 1 if not provided)
-2. Network interface name (Can be skipped provide it if the script fails to auto detect it correctly)
+2. Network interface name (Can be skipped provide it if the script fails to auto-detect it correctly)
 
-Script will install and configure the wireguard and genarte client configuration files which can be used in the wireguard clinet application to connect to the server.
+The script will install and configure the wireguard and generate client configuration files which can be used in the wireguard client application to connect to the server.
 
 ### Steps
 
@@ -27,7 +27,7 @@ Script will install and configure the wireguard and genarte client configuration
 
 **Example** `bash wireguard.sh 2 `
 
-This will genarate 2 client config files client1.conf and client2.conf
+This will generate 2 client config files client1.conf and client2.conf
 
 ### Adding more clients 
 
@@ -43,7 +43,8 @@ This script accepts one optional argument
 ```
 **Example** `bash add_clients.sh 2`
 
-This will add 2 more clinets and generate client config files client3.conf and client4.conf (if clients 1 and 2 alredy exists)
+This will add 2 more clients and generate client config files client3.conf and client4.conf (if client 1 and 2 already exists)
+
 
 ## 🤝 Contributing
 If you like to add anything extra or found a bug fix please raise a pull request.
