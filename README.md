@@ -38,7 +38,7 @@ This script accepts one optional argument
 1. Number of clients (optional default is 1)
 
 ```
-1. wget http://bit.ly/wireguard-add -O add_clients.sh 
+1. wget https://bit.ly/wireguard-add -O add_clients.sh 
 2. bash add_clients.sh <number of clients>
 ```
 **Example** `bash add_clients.sh 2`
