@@ -15,3 +15,12 @@ Script can accepts 2 arguments
 
 1. Number of clients (Default is 1 if not provided)
 2. Network interface name (Can be skipped provide it if the script fails to auto detect it correctly)
+
+### Steps
+
+```
+1. wget https://bit.ly/wireguard-script -O wireguard.sh
+2. bash wireguad.sh <number of clients> <network interface name>
+
+```
+
