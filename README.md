@@ -29,3 +29,26 @@ Script will install and configure the wireguard and genarte client configuration
 
 This will genarate 2 client config files client1.conf and client2.conf
 
+### Adding more clients 
+
+More clients can be added simply by using the add_clients.sh script.
+
+This script accepts one optional argument
+
+1. Number of clients (optional default is 1)
+
+```
+1. wget http://bit.ly/wireguard-add -O add_clients.sh 
+2. bash add_clients.sh <number of clients>
+```
+**Example** `bash add_clients.sh 2`
+
+This will add 2 more clinets and generate client config files client3.conf and client4.conf (if clients 1 and 2 alredy exists)
+
+## 🤝 Contributing
+If you like to add anything extra or found a bug fix please raise a pull request.
+
+## 📣 Feedback
+- ⭐ This repository if this project helped you! :wink:
+- Create An [🔧 Issue](https://github.com/sreejithag/wireguard_vpn_server_setup_script/issues) if you need help / found a bug
+
