@@ -94,6 +94,7 @@ then
         Address = 10.200.200.${cnp}/32
         PrivateKey = `cat client${cn}_private_key`
         DNS = 1.1.1.1
+        MTU = 1360
 
         [Peer]
         PublicKey = `cat server_public_key`
