@@ -112,7 +112,7 @@ then
     echo "
     [Interface]
     Address = 10.200.200.1/24
-    MTU = 1440
+    MTU = 1360
     ListenPort = 51820
     PrivateKey = `cat server_private_key`
     PostUp   = iptables -A FORWARD -i %i -j ACCEPT; iptables -A FORWARD -o %i -j ACCEPT; iptables -t nat -A POSTROUTING -o $interface -j MASQUERADE
@@ -142,6 +142,7 @@ then
         Address = 10.200.200.${cn}/32
         PrivateKey = `cat client${n}_private_key`
         DNS = 1.1.1.1
+        MTU = 1360
 
         [Peer]
         PublicKey = `cat server_public_key`
